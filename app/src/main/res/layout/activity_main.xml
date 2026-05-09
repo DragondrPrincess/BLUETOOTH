@@ -20,6 +20,12 @@
         android:layout_height="wrap_content"
         android:text="扫描蓝牙设备"/>
 
+    <Button
+        android:id="@+id/btnServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="等待连接（服务端）"/>
+
     <ListView
         android:id="@+id/listDevices"
         android:layout_width="match_parent"
